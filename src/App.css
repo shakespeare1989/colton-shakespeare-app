@@ -92,3 +92,11 @@
 .social-links:hover {
   color: #f06000;
 }
+
+.imageFrame {
+  clip-path: circle(100px);
+}
+
+.icons {
+  padding: 5px;
+}

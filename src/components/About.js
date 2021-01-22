@@ -10,7 +10,9 @@ export default class About extends Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src="../images/Colton.jpg" alt="Colton" />
+                        <div className="imageFrame">
+                            <img className="profile-pic" src="../images/Colton.jpg" alt="Colton" />
+                        </div>
                     </div>
                     
                     <div className="nine columns main-col">
@@ -22,8 +24,8 @@ export default class About extends Component {
                             <div className="columns contact-details">
                                 <div className="contactHeader">Contact Details:</div>
                                     <div className="contact-wigdet">
-                                        <div className="emailContact"><i class="far fa-envelope"></i>Email: shakeca@gmail.com</div>
-                                        <div className="phoneContact"><i class="fas fa-phone"></i>Phone: 385.343.8883</div>
+                                        <div className="emailContact"><span className="icons"><i class="far fa-envelope"></i></span>Email: shakeca@gmail.com</div>
+                                        <div className="phoneContact"><span className="icons"><i class="fas fa-phone"></i></span>Phone: 385.343.8883</div>
                                     </div>
                                 
                             </div>
