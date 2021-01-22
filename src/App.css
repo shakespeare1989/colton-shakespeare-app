@@ -26,3 +26,69 @@
     transform: rotate(360deg);
   }
 }
+
+.footerEmailContact {
+  color: whitesmoke;
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+.footerPhoneContact {
+  color: whitesmoke;
+  font-size: 12px;
+  padding-left: 8x;
+}
+
+.aboutMe {
+  color: whitesmoke;
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.contactMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailContact {
+  color: whitesmoke;
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+.phoneContact {
+  color: whitesmoke;
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+.headerHeadline {
+  color: #f06000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.aboutHeader {
+  color: #f06000;
+  font-size: 1.5em;
+}
+
+.contactHeader {
+  color: #f06000;
+  font-size: 1.5em;
+}
+
+.portfolioHeader {
+  color: #f06000;
+  font-size: 2em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links:hover {
+  color: #f06000;
+}

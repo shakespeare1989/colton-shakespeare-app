@@ -1,33 +1,31 @@
 import React, { Component } from "react";
 
 
+
+
 export default class About extends Component {
     render() {
         let resumeData=this.props.resumeData;
         return (
             <section id="about">
                 <div className="row">
-                    <div className="threeColumns">
-                        <img className="profile-pic" src="images/profile.jpg" alt="" />
+                    <div className="three columns">
+                        <img className="profile-pic" src="../images/Colton.jpg" alt="Colton" />
                     </div>
                     
                     <div className="nine columns main-col">
-                        <h2>About Me</h2>
-                        <p>
-                            {
-                                resumeData.aboutme
-                            }
-                        </p>
+                        <div className="aboutHeader">About Me:</div>
+                        <div className="aboutMe">
+                        Senior Data Center Help Desk Technician
+                        </div>
                         <div className="row">
                             <div className="columns contact-details">
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>{resumeData.name}</span>
-                                    <br></br>
-                                    <span>{resumeData.address}</span>
-                                    <br></br>
-                                    <span>{resumeData.website}</span>
-                                </p>
+                                <div className="contactHeader">Contact Details:</div>
+                                    <div className="contact-wigdet">
+                                        <div className="emailContact"><i class="far fa-envelope"></i>Email: shakeca@gmail.com</div>
+                                        <div className="phoneContact"><i class="fas fa-phone"></i>Phone: 385.343.8883</div>
+                                    </div>
+                                
                             </div>
                         </div>
                     </div>

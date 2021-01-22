@@ -1,9 +1,9 @@
 let resumeData = {
  "imagebaseurl": "https://ivy555.github.io/",
- "fullname": "Colton",
- "role": "Full Stack Developer",
+ "fullname": "Colton Shakespeare",
+ "role": "Senior Data Center Help Desk Technician",
  "linkedinID": "ID",
- "roleDescription": "Kochan.....",
+ "roleDescription": "",
  "socialLinks": [
      {
          "name": "linkedin",
@@ -16,7 +16,7 @@ let resumeData = {
          "className": "fa fa-github"
      },
      {
-         "aboutme": "test",
+         "aboutme": "Senior Data Center Help Desk Technician",
          "address": "Draper, UT",
          "website": "https://akichan89.github.io",
          "education": [
@@ -48,7 +48,7 @@ let resumeData = {
              {
                  "name":"project",
                  "description":"mobileapp",
-                 "imgurl":"images/portfolio/phone.jpg"
+                 "imgurl":"images/Colton.jpg"
              }
 
          ]
@@ -56,4 +56,5 @@ let resumeData = {
  ]
     
 }
+
     export default resumeData
