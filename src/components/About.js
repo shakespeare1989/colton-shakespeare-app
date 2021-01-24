@@ -18,14 +18,14 @@ export default class About extends Component {
                     <div className="nine columns main-col">
                         <div className="aboutHeader">About Me:</div>
                         <div className="aboutMe">
-                        Senior Data Center Help Desk Technician
+                        Lead Data Center Technician
                         </div>
                         <div className="row">
                             <div className="columns contact-details">
                                 <div className="contactHeader">Contact Details:</div>
                                     <div className="contact-wigdet">
                                         <div className="emailContact"><span className="icons"><i class="far fa-envelope"></i></span>Email: shakeca@gmail.com</div>
-                                        <div className="phoneContact"><span className="icons"><i class="fas fa-phone"></i></span>Phone: 385.343.8883</div>
+                                        <div className="phoneContact"><span className="icons"><i class="fas fa-phone"></i></span>Phone: 385.210.5739</div>
                                     </div>
                                 
                             </div>

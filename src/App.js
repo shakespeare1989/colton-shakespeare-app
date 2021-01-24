@@ -7,7 +7,10 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import ContactForm from './components/ContactForm';
+
 import "./App.css";
+
 
 class App extends Component {
   render() {
@@ -18,7 +21,7 @@ class App extends Component {
         
         <Portfolio resumeData={resumeData}/>
         
-        
+        <ContactForm />
         <Footer resumeData={resumeData}/>
         
       </div>

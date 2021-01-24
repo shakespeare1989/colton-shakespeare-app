@@ -30,7 +30,7 @@ export default class Footer extends Component {
                             
                         <div className="contactMe">
                             <div className="footerEmailContact" ><span className="icons"><i class="far fa-envelope"></i></span>Email: shakeca@gmail.com</div>
-                            <div className="footerPhoneContact"><span className="icons"><i class="fas fa-phone"></i></span>Phone: 385.343.8883</div>
+                            <div className="footerPhoneContact"><span className="icons"><i class="fas fa-phone"></i></span>Phone: 385.210.5739</div>
                         </div>
             </footer>
         )
