@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
   return (
     <div className="contactFormWrapper">
-    <form onSubmit={handleSubmit}>
+    <form action="mailto:autumn.e.gehring@gmail.com" method= "post">
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required />
@@ -37,7 +37,7 @@ const ContactForm = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
-      <button type="submit">{status}</button>
+      <button className="submitButton" type="submit">{status}</button>
     </form>
     </div>
   );

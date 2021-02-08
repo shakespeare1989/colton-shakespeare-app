@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 export default class ContactUs extends Component {
@@ -22,8 +22,8 @@ export default class ContactUs extends Component {
   <label class="message-email" htmlFor="message-email">Your Email</label>
   <input onChange={(e) => this.setState({ email: e.target.value})} name="email" class="message-email" type="email" placeholder="your@email.com" required value={this.state.email} />
 
-  <div className="button--container">
-      <button type="submit" className="button button-primary">{ this.state.buttonText }</button>
+  <div className="button-container">
+      <button className="submit-button" type="submit" className="button button-primary">{ this.state.buttonText }</button>
   </div>
 </form>
 

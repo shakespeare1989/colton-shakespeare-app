@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ContactForm from './ContactForm.js';
 
 export default class Header extends Component {
     render() {
@@ -17,6 +19,9 @@ export default class Header extends Component {
                                 </li>
                                 <li>
                                     <a className="smoothscroll" href="#about">About Me</a>
+                                </li>
+                                <li>
+                                <a className="smoothscroll" href="/ContactForm">Contact</a>
                                 </li>
                                 
                             </ul>
