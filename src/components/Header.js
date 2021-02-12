@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ContactForm from './ContactForm.js';
+
 
 export default class Header extends Component {
     render() {
@@ -15,15 +15,17 @@ export default class Header extends Component {
                                     <a className="smoothscroll" href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a className="smoothscroll" href="#resume">Resume</a>
+                                    <a href="https://drive.google.com/file/d/1__cmyBf5_pr57aMpGyKzEgqruH9tEBhl/view?usp=sharing" target="_blank">Resume</a>
                                 </li>
                                 <li>
                                     <a className="smoothscroll" href="#about">About Me</a>
                                 </li>
                                 <li>
-                                <a className="smoothscroll" href="/ContactForm">Contact</a>
+                                <a className="smoothscroll" href="#contact">Contact</a>
                                 </li>
-                                
+                                <li>
+                                    <a href="https://www.linkedin.com/in/colton-shakespeare-8b1301133/" target="_blank">LinkedIn</a>
+                                </li>
                             </ul>
                         </nav>
                         
@@ -38,8 +40,8 @@ export default class Header extends Component {
                                         resumeData.socialLinks&&resumeData.socialLinks.map(item => {
                                             return(
                                                 <li key={item.name}>
-                                                    <a href={item.url} target="">
-                                                        <i className={item.className}></i>
+                                                    <a key={item.url} href={item.url} target="">
+                                                        <i key={item.className} className={item.className}></i>
                                                     </a>
                                                 </li>
                                             )

@@ -19,16 +19,19 @@ export default function ContactForm() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="from_name" />
-      <label>Name</label>
-      <input type="text" name="from_email" />
-      <label>Email</label>
-      <input type="email" name="message" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <section id="contact">
+    <h3 className="contactHeader">I'd Love to Hear From You!</h3>
+      <form className="contact-form" onSubmit={sendEmail}>
+        <input type="hidden" name="from_name" />
+        
+        <input type="text" name="from_email" />
+       
+        <input type="email" name="message" />
+        
+        <textarea name="message" />
+        <button type="submit" value="Send">Send</button>
+      </form>
+    </section>
   );
 }
 

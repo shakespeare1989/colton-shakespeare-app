@@ -10,7 +10,7 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 //import ContactForm from './components/ContactForm';
-import ContactForm from './ContactMe';
+import ContactMe from './ContactMe';
 
 import "./App.css";
 
@@ -24,12 +24,7 @@ class App extends Component {
         
         <Portfolio resumeData={resumeData}/>
         
-        <Router>
-          <Switch>
-            <Route path="/Contact" component={ContactForm} />
-          </Switch>
-        </Router>
-        <ContactForm />
+        <ContactMe />
         <Footer resumeData={resumeData}/>
         
       </div>

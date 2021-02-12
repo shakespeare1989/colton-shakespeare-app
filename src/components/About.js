@@ -10,15 +10,25 @@ export default class About extends Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <div className="imageFrame">
+                        
                             <img className="profile-pic" src="../images/Colton.jpg" alt="Colton" />
-                        </div>
+                        
                     </div>
                     
                     <div className="nine columns main-col">
                         <div className="aboutHeader">About Me:</div>
                         <div className="aboutMe">
-                        Lead Data Center Technician
+                        <p>Let me tell you a little bit about myself: I am a hard worker, determined and love to live a positive life. 
+                        I currently work as a Senior Help Desk Engineer at DataBank, a Data Center located in Utah. 
+                        I am a self trained IT Professional, currently studying for my CompTIA A+ and CompTIA Network+ 
+                        Certifications. With over 10 years of Data Center and Management experience, I am capable of problem solving, quality results, and grooming quality technicians. What does this mean for you? Well, these skills would be used
+                        assisting in creating long lasting customer relationships and efficient Data Centers; which is how expections would be exceeded
+                        at your company.</p>
+ 
+                        <p>I am also a very fun, upbeat, creative individual that can add to a positive environment and put a smile on anyone’s 
+                            face. I feel I would be a great asset to your company.</p>
+                        <p>I would love to hear from you! Let's talk</p>
+
                         </div>
                         <div className="row">
                             <div className="columns contact-details">

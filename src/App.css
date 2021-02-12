@@ -87,6 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100px;
 }
 
 .social-links:hover {
@@ -97,40 +98,48 @@
   clip-path: circle(100px);
 }
 
-.icons {
-  padding: 5px;
-}
-
-.contactFormWrapper {
-  padding-left: 50px;
-}
-
 .submitButton {
   background-color: #f06000;
 }
 
 .contact-form {
+  color: #f06000;
+  margin-bottom: 16px;
+}
+#contact {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  /* margin-top: 10; */
+  padding-top: 16px;
+}
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 60%;
   padding: none;
-  margin: none;
 }
 
 .message-input {
   border-radius: 20px;
   width: 100%;
+  background-color: lightgrey;
 }
 
 .contact-form > textarea {
   border-radius: 8px;
   width: 40%;
+  background-color: lightgrey;
 }
 
 .contact-form > input {
   border-radius: 8px;
+  background-color: lightgrey;
 }
 
 .contact-form > label {
@@ -141,19 +150,24 @@
   margin: none;
 }
 
-.submit-button > button {
-  border-radius: 40px;
+.contact-form > button {
+  border-radius: 20px;
+  height: 60px;
+  width: 90px;
+  background-color: #f06000;
 }
 
-.contact-form > input {
+.contact-form > input > .from_name {
   width: 40%;
   padding: none;
   margin: none;
+  background-color: white;
 }
 
 .about {
   display: flex;
   justify-content: space-evenly;
+  height: 100px;
 }
 
 .three.columns {
@@ -179,3 +193,25 @@
   justify-content: center;
   flex-direction: column;
 } */
+
+.portfolioHeader {
+  padding: none;
+  margin: none;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.profile-pic {
+  border-radius: 8px;
+  margin-top: 34px;
+  height: 100%;
+}
+#portfolio {
+  margin: none;
+  padding: none;
+}
