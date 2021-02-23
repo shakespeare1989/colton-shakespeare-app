@@ -1,6 +1,7 @@
 {
   "name": "coltons-portfolio",
   "version": "0.1.0",
+  "homepage": "https://akichan89.github.io/coltonshakespeare",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -11,6 +12,7 @@
     "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "firebase": "^8.2.4",
+    "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0",
     "nodemailer": "^6.4.17",
     "rbx": "^2.2.0",
@@ -23,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
