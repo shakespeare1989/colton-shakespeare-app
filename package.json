@@ -1,7 +1,7 @@
 {
   "name": "coltons-portfolio",
   "version": "0.1.0",
-  "homepage": "https://akichan89.github.io/coltonshakespeare",
+  "homepage": "https://shakespeare1989.github.io/colton-shakespeare-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
