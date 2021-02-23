@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/coltonshakespeare/static/css/main.37bf7729.chunk.css",
-    "main.js": "/coltonshakespeare/static/js/main.b9967a60.chunk.js",
-    "main.js.map": "/coltonshakespeare/static/js/main.b9967a60.chunk.js.map",
-    "runtime-main.js": "/coltonshakespeare/static/js/runtime-main.9cbcbbd6.js",
-    "runtime-main.js.map": "/coltonshakespeare/static/js/runtime-main.9cbcbbd6.js.map",
-    "static/js/2.e7e91e05.chunk.js": "/coltonshakespeare/static/js/2.e7e91e05.chunk.js",
-    "static/js/2.e7e91e05.chunk.js.map": "/coltonshakespeare/static/js/2.e7e91e05.chunk.js.map",
-    "static/js/3.fb24d0a9.chunk.js": "/coltonshakespeare/static/js/3.fb24d0a9.chunk.js",
-    "static/js/3.fb24d0a9.chunk.js.map": "/coltonshakespeare/static/js/3.fb24d0a9.chunk.js.map",
-    "index.html": "/coltonshakespeare/index.html",
-    "static/css/main.37bf7729.chunk.css.map": "/coltonshakespeare/static/css/main.37bf7729.chunk.css.map",
-    "static/js/2.e7e91e05.chunk.js.LICENSE.txt": "/coltonshakespeare/static/js/2.e7e91e05.chunk.js.LICENSE.txt"
+    "main.css": "/colton-shakespeare-app/static/css/main.37bf7729.chunk.css",
+    "main.js": "/colton-shakespeare-app/static/js/main.b9967a60.chunk.js",
+    "main.js.map": "/colton-shakespeare-app/static/js/main.b9967a60.chunk.js.map",
+    "runtime-main.js": "/colton-shakespeare-app/static/js/runtime-main.bc92503a.js",
+    "runtime-main.js.map": "/colton-shakespeare-app/static/js/runtime-main.bc92503a.js.map",
+    "static/js/2.e7e91e05.chunk.js": "/colton-shakespeare-app/static/js/2.e7e91e05.chunk.js",
+    "static/js/2.e7e91e05.chunk.js.map": "/colton-shakespeare-app/static/js/2.e7e91e05.chunk.js.map",
+    "static/js/3.fb24d0a9.chunk.js": "/colton-shakespeare-app/static/js/3.fb24d0a9.chunk.js",
+    "static/js/3.fb24d0a9.chunk.js.map": "/colton-shakespeare-app/static/js/3.fb24d0a9.chunk.js.map",
+    "index.html": "/colton-shakespeare-app/index.html",
+    "static/css/main.37bf7729.chunk.css.map": "/colton-shakespeare-app/static/css/main.37bf7729.chunk.css.map",
+    "static/js/2.e7e91e05.chunk.js.LICENSE.txt": "/colton-shakespeare-app/static/js/2.e7e91e05.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cbcbbd6.js",
+    "static/js/runtime-main.bc92503a.js",
     "static/js/2.e7e91e05.chunk.js",
     "static/css/main.37bf7729.chunk.css",
     "static/js/main.b9967a60.chunk.js"
